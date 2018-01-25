@@ -1,0 +1,53 @@
+<!-- 
+  A dropdown menu of all BusMall products (<select> and <option> will be needed)
+  
+  An input of type="number" to indicate quantity to purchase
+  
+  A "Add to Cart" button to submit the order. When the order is submitted, all of the input fields should be cleared
+  
+  Display an animated confirmation message using CSS and JS, plus a link to the shopping cart page
+  Of course, there should be appropriate instructions and styling on the page -->
+
+  <!--  make a ul element. holding all images -->
+
+  <!-- This is the index page that will hold
+  1. start with a single form element
+  2. inside the form create a ul hoiling all product names.
+  3. display in a drop down menu.
+  4. a feild that accepts only type-number
+  5.Then create a submit buttonn.
+-->
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>BusMall products </title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1> Busmall Products</h1>
+
+<form id="products-form">
+  <fieldset>
+    <select id="drop-down"></select>
+    <input type="number">
+    <button id="add-product">Add to Cart</button>
+  </fieldset>
+</form>
+
+<!-- 
+  listento the form element
+ -->
+
+<div id="message"></div>
+
+
+
+
+
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
