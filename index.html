@@ -31,8 +31,10 @@
 
 <form id="products-form">
   <fieldset>
-    <select id="drop-down"></select>
-    <input type="number">
+    <label for="itemSelected">Select an item</label>
+    <select name="itemSelected" id="drop-down"></select>
+    <label for="amount">How many?</label>
+    <input name="amount" type="number">
     <button id="add-product">Add to Cart</button>
   </fieldset>
 </form>
@@ -41,10 +43,12 @@
   listento the form element
  -->
 
-<div id="message"></div>
+<div id="message">
+  <p id="alert-message"></p>
+</div>
 
 
-
+<a href="cart.html" id="cart-link" >Go to My Shopping Cart</a>
 
 
 
